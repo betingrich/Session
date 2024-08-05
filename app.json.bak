@@ -1,0 +1,22 @@
+{
+    "name": "BUGATTI session",
+    "description": "Bugatti The Fastest Bit alive",
+    "logo": "https://telegra.ph/file/2ab3e2edcbb858399951c.jpg",
+    "repository": "https://github.com/kingjux/Venocyber-Md-Session",
+    "keywords": ["VenocyberMd"],
+    "success_url": "/", 
+    "buildpacks": [{ "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" } ],
+    "env": {      
+      "PORT": {
+        "description": "Port for web app.4000,5000,3000... any!",
+        "value": "5000",
+        "required": false 
+      },
+      "MESSAGE": {
+        "description": "set session id conformation message",
+        "value": "",
+        "required": false 
+      }
+    }   
+
+}
