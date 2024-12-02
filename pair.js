@@ -56,11 +56,11 @@ router.get('/', async (req, res) => {
                let session = await Pair_Code_By_Bugatti.sendMessage(Pair_Code_By_Bugatti.user.id, { text: '' + b64data });
 
                let BUGATTI_TEXT = `
-*_Pair Code Connected by Bugatti*
+*_Pair Code Connected by mr Hacker*
 *_The Fastest Bot Alive*
 ______________________________________
 ╔════◇
-║ *『 WOW YOU CHOOSEN BUGATTI』*
+║ *『 WOW YOU CHOOSEN MR HACKER』*
 ║ _You Have Completed the First Step to Deploy a Whatsapp Bot._
 ╚══════════════════════╝
 ╔═════◇
